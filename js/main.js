@@ -28,11 +28,11 @@ if ($(window).width() > 768) {
 // --------------------------------
 // --------------------------------
 $(".info-btn a:nth-child(1) img").hover(function () {
-    $('.eqs').load('../eq1.html');
+    // $('.eqs').load('../eq1.html');
     $(this).attr('src', 'images/info-btn-h.png');
     $(".eqs").show();
-    // $(".eq-img>img").attr('src', 'images/eq01.png');
-    // $(".eq-name>p").text("面鏡");
+    $(".eq-img>img").attr('src', 'images/eq01.png');
+    $(".eq-name>p").text("面鏡");
 }, function () {
     $(this).attr('src', 'images/info-btn.png');
     $(".eqs").hide();
